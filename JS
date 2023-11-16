@@ -1,0 +1,6 @@
+var valorEmDolar = 45
+var cambioReal = 4.859
+ 
+var valorEmReal = cambioReal * valorEmDolar;
+valorEmReal = valorEmReal.toFixed(1)
+alert("R$ " + valorEmReal);
